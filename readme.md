@@ -91,14 +91,14 @@ The tool flags various types of suspicious network activity, including:
 The following is an example of the security log file created during analysis:
 
 ```
-2024-11-02T12:51:02.121950-0400 INFO Analysis Summary: {'protocol_usage': {'IP': 19986, 'IPv6': 16, 'ARP': 6, '192.168.2.34': '18:7f:88:6a:23:ef', '192.168.2.14': 'f0:2f:74:cc:4a:91'}, 'unencrypted_traffic_count': 0, 'suspicious_activity_count': 3271, 'arp_spoofing_attempts_count': 0, 'dns_exfiltration_attempts_count': 15} 
+2024-11-02T12:51:02.121950-0400 INFO Analysis Summary: {'protocol_usage': {'IP': 19986, 'IPv6': 16, 'ARP': 6, '192.168.2.xx': 'xxxx', '192.168xxxx': 'fxxxxx'}, 'unencrypted_traffic_count': 0, 'suspicious_activity_count': 3271, 'arp_spoofing_attempts_count': 0, 'dns_exfiltration_attempts_count': 15} 
 2024-11-02T12:51:02.122950-0400 INFO Unencrypted Traffic Packets: 0
 2024-11-02T12:51:02.122950-0400 INFO Suspicious Packets: 3271
 2024-11-02T12:51:02.122950-0400 INFO ARP Spoofing Attempts: 0
 2024-11-02T12:51:02.123952-0400 INFO DNS Exfiltration Attempts: 15
 ...
-2024-11-02T12:51:18.042324-0400 INFO Suspicious Destination IP: 3.131.122.151, Number of Suspicious Packets: 16, Domain: ec2-3-131-122-151.us-east-2.compute.amazonaws.com, Country: United States
-2024-11-02T12:52:39.454285-0400 INFO Traceroute to 52.182.143.215: Hop 15 -> 104.44.54.108
+2024-11-02T12:51:18.042324-0400 INFO Suspicious Destination IP: 3.131.xxxxx, Number of Suspicious Packets: 16, Domain: ec2-3-1xxxxx.us-east-2.compute.amazonaws.com, Country: United States
+2024-11-02T12:52:39.454285-0400 INFO Traceroute to 52.xxxx: Hop 15 -> 104.xxxxxx
 ```
 
 ## Troubleshooting
