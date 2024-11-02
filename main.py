@@ -12,7 +12,7 @@ geoip_db_path = 'GeoLite2-Country.mmdb'
 geoip_reader = geoip2.database.Reader(geoip_db_path)
 
 # Load the uploaded pcapng file for analysis
-file_path = 'cosmic.pcapng'
+file_path = 'wireshark.pcapng'
 
 # Read the pcapng file
 packets = rdpcap(file_path)
