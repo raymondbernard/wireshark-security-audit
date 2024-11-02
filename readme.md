@@ -48,7 +48,7 @@ This tool is a Python-based network traffic analysis solution that reads a `pcap
    python main.py
    ```
 
-   The program will read the `cosmic.pcapng` file, analyze it, and output the results in `security.log`.
+   The program will read the `wireshark.pcapng` file, analyze it, and output the results in `security.log`.
 
 2. **Key Output Details**
    - **Analysis Summary**: Summary of protocols, unencrypted traffic, suspicious activity, ARP spoofing, and DNS exfiltration attempts.
