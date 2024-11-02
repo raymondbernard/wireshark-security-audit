@@ -8,7 +8,7 @@ GeoLite2*
 *.so
 *.pcapng
 *.mmdb
-
+securitylog
 
 # Distribution / packaging
 .Python
